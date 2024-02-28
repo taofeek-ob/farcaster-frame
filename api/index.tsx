@@ -10,6 +10,7 @@ export const app = new Frog({
   basePath: '/api',
   // Supply a Hub API URL to enable frame verification.
   hubApiUrl: 'https://api.hub.wevm.dev',
+  browserLocation: "https://warpcast.com/taofeek/0x8c61adeb",
 })
 
 app.frame('/', (c) => {
